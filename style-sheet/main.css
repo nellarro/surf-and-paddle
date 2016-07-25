@@ -231,6 +231,9 @@ aside {
   color: #a8b7c3;
 }
 
+.bottom {
+  height: 23vh;
+}
 .images {
   display: flex;
   flex:1;
@@ -241,4 +244,50 @@ aside {
   text-align: center;
   font-size: 2.75em;
   color: #083452;
+}
+.images {
+  display:flex;
+  justify-content: flex-end;
+  height: 55vh;
+  border: none;
+  font-family: "Open Sans";
+  color: #083452;
+  font-size: 1.5em;
+  position: relative;
+  border: none;
+}
+
+.images h4 {
+  display: flex;
+  border: none;
+  margin: 0px;
+  position:relative;
+  position: 0;
+}
+
+.image-one {
+  background-image: url(/images/article-image-1.jpg);
+  width: 100%;
+}
+
+.image-two {
+  background-image: url(/images/article-image-2.jpg);
+  width: 100%;
+}
+
+.image-three {
+  background-image: url(/images/article-image-3.jpg);
+  width: 100%;
+  float: left;
+  margin-bottom: 0px;
+  font-family: "Kanit";
+  font-size: 12px;
+}
+
+.image-four {
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url(/images/article-image-4.jpg);
+  width: 100%;
+  float: left;
 }
