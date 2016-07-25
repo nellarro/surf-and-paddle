@@ -230,3 +230,8 @@ aside {
   margin: 0px;
   color: #a8b7c3;
 }
+
+.images {
+  display: flex;
+  flex:1;
+}
