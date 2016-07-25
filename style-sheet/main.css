@@ -235,3 +235,10 @@ aside {
   display: flex;
   flex:1;
 }
+
+.bottom h3 {
+  font-family: "Kanit";
+  text-align: center;
+  font-size: 2.75em;
+  color: #083452;
+}
