@@ -263,6 +263,7 @@ ul.image-navigation {
 ul.image-navigation li {
   flex: 1;
   position: relative;
+  margin-bottom: -5px;
 }
 
 ul.image-navigation li img {
@@ -270,12 +271,38 @@ ul.image-navigation li img {
 }
 
 ul.image-navigation li a {
+  font-size: 1.2em;
+  display: flex;
+  align-items: flex-end;
   position: absolute;
-  bottom: 1em;
-  left: 1em;
-  color: white;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
 }
 
-u.image-navigation li a:link {
-  color: white;
+ul.image-navigation li a:link,
+ul.image-navigation li a:visited {
+  background-color: rgba(8, 52, 82, 0.5);
+  color: #083452;
+  text-decoration: none;
+}
+
+ul.image-navigation li a:focus,
+ul.image-navigation li a:hover,
+ul.image-navigation li a:active {
+  background-color: rgba(1, 1, 1, 0);
+  color: #FFFFFF;
+}
+
+footer {
+  margin: 0;
+  background-color: #083452;
+  color: #FFFFFF;
+}
+
+h1 {
+  margin: 0;
 }
