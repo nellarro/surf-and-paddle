@@ -247,47 +247,35 @@ aside {
 }
 .images {
   display:flex;
-  justify-content: flex-end;
-  height: 55vh;
-  border: none;
   font-family: "Open Sans";
   color: #083452;
   font-size: 1.5em;
+  border: none;
+}
+
+ul.image-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+ul.image-navigation li {
+  flex: 1;
   position: relative;
-  border: none;
 }
 
-.images h4 {
-  display: flex;
-  border: none;
-  margin: 0px;
-  position:relative;
-  position: 0;
-}
-
-.image-one {
-  background-image: url(/images/article-image-1.jpg);
+ul.image-navigation li img {
   width: 100%;
 }
 
-.image-two {
-  background-image: url(/images/article-image-2.jpg);
-  width: 100%;
+ul.image-navigation li a {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  color: white;
 }
 
-.image-three {
-  background-image: url(/images/article-image-3.jpg);
-  width: 100%;
-  float: left;
-  margin-bottom: 0px;
-  font-family: "Kanit";
-  font-size: 12px;
-}
-
-.image-four {
-  display: flex;
-  flex-wrap: wrap;
-  background-image:url(/images/article-image-4.jpg);
-  width: 100%;
-  float: left;
+u.image-navigation li a:link {
+  color: white;
 }
