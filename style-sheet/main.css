@@ -11,7 +11,7 @@ main {
 
 .top-nav-bar h5 {
   text-indent: 20px;
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ main {
 
 header {
   background:
-      url(/images/header.jpg);
+      url(../images/header.jpg);
       background-size: cover;
       background-repeat: no-repeat;
   padding-bottom: 10%;
@@ -63,7 +63,7 @@ header h6 {
 
 .post h5 {
   text-indent: 20px;
-  background-image: url(/images/avatar.png);
+  background-image: url(../images/avatar.png);
   background-repeat: no-repeat;
   height: 30vh;
 }
@@ -137,7 +137,7 @@ header h6 {
   text-indent: 29px;
   font-weight: bold;
   color: #4489c0;
-  background-image: url(/images/avatar.png);
+  background-image: url(../images/avatar.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
