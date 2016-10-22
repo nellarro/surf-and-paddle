@@ -7,4 +7,4 @@ Week one of the Iron Yard, we were given an assigment to recreate a website usin
 
 This is an assigment I am really proud of. 
 
-**HTML5, CSS3,**
+**HTML5, CSS3**
