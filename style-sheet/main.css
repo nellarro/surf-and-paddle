@@ -32,6 +32,10 @@ main {
   font-family: "Oswald";
 }
 
+.social-comment a{
+  color: black;
+}
+
 
 header {
   background:
@@ -86,10 +90,6 @@ header h6 {
   padding-left: .5em
 }
 
-.column-a a {
-  color:white;
-}
-
 .column-a {
   text-align: left;
   display: inline;
@@ -111,16 +111,10 @@ header h6 {
 }
 
 .column-a i {
-  background-color: #5E686F;
-  color: white;
-  font-size: 1.4em;
+  color: black;
 }
 
-.column-a li:hover {
-  background-color: #106DB3;
-}
-
-.column-a li:hover i {
+.social-comment li:hover i {
   background-color: #083452;
 }
 
@@ -298,11 +292,40 @@ ul.image-navigation li a:active {
 }
 
 footer {
-  margin: 0;
+  margin: -1;
   background-color: #083452;
   color: #FFFFFF;
 }
 
 h1 {
   margin: 0;
+}
+
+.social-comment span{
+  background-color: #5E686F;
+  text-align: center;
+}
+
+.social-comment a {
+  color: white;
+  background-color: #A3B3BF;
+  width: 20em;
+  padding-right: 2em;
+}
+
+.social-comment i {
+  color: white;
+  width: 1.5em;
+  padding: 4px;
+}
+
+.social-comment ul {
+  display: flex;
+  /*justify-content: space-around;*/
+  margin: 0;
+}
+
+.social-comment li {
+  list-style: none;
+  margin: 0px 12px 0px 0px;
 }
