@@ -11,3 +11,8 @@ Grueling? Yes.
 Worth it? Absolutely.
 
 **HTML, CSS**
+
+
+** Mockup 
+
+[Mockup](surf-and-paddle/mockup_asset/mockup.png)
