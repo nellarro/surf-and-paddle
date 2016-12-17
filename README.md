@@ -15,4 +15,4 @@ Worth it? Absolutely.
 
 ** Mockup 
 
-[Mockup](surf-and-paddle/mockup_asset/mockup.png)
+![mockup copy](https://cloud.githubusercontent.com/assets/18720522/21284325/4be09f2e-c3e6-11e6-871e-b5273a760e79.png)
