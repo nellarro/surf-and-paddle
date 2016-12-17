@@ -228,10 +228,6 @@ aside {
 .bottom {
   height: 23vh;
 }
-.images {
-  display: flex;
-  flex:1;
-}
 
 .bottom h3 {
   font-family: "Kanit";
@@ -239,8 +235,8 @@ aside {
   font-size: 2.75em;
   color: #083452;
 }
+
 .images {
-  display:flex;
   font-family: "Open Sans";
   color: #083452;
   font-size: 1.5em;
@@ -248,16 +244,16 @@ aside {
 }
 
 ul.image-navigation {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
 }
 
-ul.image-navigation li {
-  flex: 1;
+.image-navigation li {
   position: relative;
   margin-bottom: -5px;
+  width: 25vw;
 }
 
 ul.image-navigation li img {
@@ -292,9 +288,13 @@ ul.image-navigation li a:active {
 }
 
 footer {
-  margin: -1;
+  margin: -3px;
   background-color: #083452;
   color: #FFFFFF;
+}
+
+footer img {
+  padding: 1em 1.5em .5em 3em;
 }
 
 h1 {
